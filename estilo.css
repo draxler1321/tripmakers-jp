@@ -565,16 +565,24 @@ footer .arriba{
         width: 100%;
     }
 
-    .fotos .galeria{
+    .fotos .galeria {
         display: flex;
-        width: 100%;
+        flex-wrap: wrap; /* Asegurar que las imágenes se ajusten a lo ancho del contenedor */
+        justify-content: space-between; /* Espaciado entre las imágenes, puedes ajustarlo según tus preferencias */
     }
-    .fotos .galeria .proyecto{
+    
+    .fotos .galeria .proyecto {
+        flex: 0 0 100%; /* Para que ocupe el 100% del ancho en una sola columna */
         max-width: 100%;
+        margin-bottom: 20px; /* Espaciado inferior entre proyectos, puedes ajustarlo según tus preferencias */
     }
-    .fotos .galeria .proyecto img{
+    
+    .fotos .galeria .proyecto img {
         width: 100%;
+        max-height: 100%; /* Para evitar que las imágenes se recorten */
+        object-fit: contain; /* Ajustar la imagen manteniendo su relación de aspecto, puede haber espacios vacíos alrededor */
     }
+    
     .contacto .fila{
         display: block;
     }
