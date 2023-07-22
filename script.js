@@ -38,3 +38,7 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+function toggleMobileMenu() {
+    var mobileMenu = document.querySelector('nav.responsive');
+    mobileMenu.style.display = mobileMenu.style.display === 'block' ? 'none' : 'block';
