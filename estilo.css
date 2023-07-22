@@ -524,7 +524,6 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
-
 @media screen and (max-width:980px){
     nav{
         display: none;
@@ -556,27 +555,35 @@ footer .arriba{
         width: fit-content;
     }
 
-    .places .fila{
+    .skills .fila{
         display: block;
     }
-    .places .fila .col{
+    .skills .fila .col{
         width: 100%;
     }
-    .places .fila .col .barra-place{
+    .skills .fila .col .barra-skill{
         width: 100%;
     }
 
-    
-    .fotos .galeria{
+    .curriculum .fila{
+        display: block;
+    }
+    .curriculum .fila .col{
+        width: 90%;
+    }
+    .curriculum .fila .derecha{
+        margin-left: 20px;
+    }
+
+    .portfolio .galeria{
         display: block;
         width: 100%;
     }
-    .fotos .galeria .proyecto{
+    .portfolio .galeria .proyecto{
         max-width: 100%;
     }
-    .fotos .galeria .proyecto img{
+    .portfolio .galeria .proyecto img{
         width: 100%;
-        object-fit: cover;
     }
     .contacto .fila{
         display: block;
