@@ -38,3 +38,31 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+$(document).ready(function() {
+    // Función para mostrar el overlay
+    function mostrarOverlay() {
+        $(".overlay").addClass("visible");
+    }
+
+    // Función para ocultar el overlay
+    function ocultarOverlay() {
+        $(".overlay").removeClass("visible");
+    }
+
+    // Evento click o tap en la imagen
+    $(".proyecto img").on("click tap", function() {
+        mostrarOverlay();
+    });
+
+    // Evento click o tap en el overlay para cerrarlo
+    $(".overlay").on("click tap", function(event) {
+        // Detener la propagación del evento para evitar que se cierre el overlay inmediatamente
+        event.stopPropagation();
+        ocultarOverlay();
+    });
+
+    // Evento click o tap en cualquier lugar del documento para cerrar el overlay
+    $(document).on("click tap", function() {
+        ocultarOverlay();
+    });
+});
