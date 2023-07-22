@@ -566,7 +566,7 @@ footer .arriba{
     }
 
     .fotos .galeria{
-        display: block;
+        display: flex;
         width: 100%;
     }
     .fotos .galeria .proyecto{
