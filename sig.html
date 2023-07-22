@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>TRIPMAKERS</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">TRIPMAKERS</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobre" onclick="seleccionar()">ACERCA DE TRIPMAKERS</a></li>
+                    <li><a href="#places" onclick="seleccionar()">DEPARTAMENTOS VISITADOS</a></li>
+                    <li><a href="#fotos" onclick="seleccionar()">GALERIAS DE FOTOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/logo.jpg" alt="">
+            </div>
+            <h1>TRIPMAKERS</h1>
+            <h2>Inspirate para explorar nuevos horizontes</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100095103544551&mibextid=LQQJ4d"><i class="fa-brands fa-facebook fa-beat"></i></a>
+                <a href="https://instagram.com/trip_makers_?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram fa-beat"></i></a>
+                <a href="https://www.tiktok.com/@tripmakers17?_t=8eAFozxzfoU&_r=1"><i class="fa-brands fa-tiktok fa-beat"></i></a>
+                <a href="https://www.youtube.com/@TripMakers17"><i class="fa-brands fa-youtube fa-beat"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobre" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>ACERCA DE TRIPMAKERS</h2>
+            <p><span>Hola, Somos Tripmakers, </span>Nos dedicamos hacer reseñas, blogs, reviews de precios, acerca de los lugares que visitamos con el fin de la gente se informe y tenga una vista previa antes de ir hacia ese lugar, y con el review de precios se puede dar una idea del costo que puede gastar en ese lugar </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos</h3>
+                    <ul>
+
+                        <li>
+                            <strong>Email</strong>
+                            Tripmakers17@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.Tripmakers.netlify-app
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            NICARAGUA
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="places" id="places">
+        <div class="contenido-seccion">
+            <h2>DEPARTAMENTOS VISITADOS</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="place">
+                        <span>Jinotega</span>
+                        <div class="barra-place">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place">
+                        <span>Matagalpa</span>
+                        <div class="barra-place">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place">
+                        <span>Masaya</span>
+                        <div class="barra-place">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place">
+                        <span>Rivas</span>
+                        <div class="barra-place">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place">
+                        <span>Carazo</span>
+                        <div class="barra-place">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="place">
+                        <span>Leon</span>
+                        <div class="barra-place">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place">
+                        <span>Boaco</span>
+                        <div class="barra-place">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place">
+                        <span>Managua</span>
+                        <div class="barra-place">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place">
+                        <span>El Rama</span>
+                        <div class="barra-place">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place">
+                        <span>Granada</span>
+                        <div class="barra-place">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <section id="fotos" class="fotos">
+    <div class="contenido-seccion">
+        <h2>GALERIA DE FOTOS</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="img/san.jpg" alt="">
+                <div class="overlay">
+                    <h3>SAN JUAN DEL SUR</h3>
+                    <p>Rivas</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/ome.jpg" alt="">
+                <div class="overlay">
+                    <h3>OMETEPE ISLAND</h3>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/grana.jpg" alt="">
+                <div class="overlay">
+                    <h3>CATEDRAL DE GRANADA</h3>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/jino.jpg" alt="">
+                <div class="overlay">
+                    <h3>CARRETERA HACIA JINOTEGA</h3>
+                
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/cata.jpg" alt="">
+                <div class="overlay">
+                    <h3>MIRADOR DE CATARINA</h3>
+                    <p>MASAYA</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/selva.jpg" alt="">
+                <div class="overlay">
+                    <h3>SELVA NEGRA</h3>
+                    <p>MATAGALPA</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/mapa.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                NICARAGUA
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-arrow-right"></i>
+                                Website: www.Tripmakers.netlify-app
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: Tripmakers17@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100095103544551&mibextid=LQQJ4d"><i class="fa-brands fa-facebook fa-beat"></i></a>
+            <a href="https://instagram.com/trip_makers_?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram fa-beat"></i></a>
+            <a href="https://www.tiktok.com/@tripmakers17?_t=8eAFozxzfoU&_r=1"><i class="fa-brands fa-tiktok fa-beat"></i></a>
+            <a href="https://www.youtube.com/@TripMakers17"><i class="fa-brands fa-youtube fa-beat"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
