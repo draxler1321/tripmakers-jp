@@ -587,53 +587,33 @@ footer .arriba{
 
 
 
-@media screen and (max-width: 980px) {
-    .nav-responsive {
+@media screen and (max-width: 700px) {
+    /* Ajustes para el menú de navegación */
+    nav {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 180px;
+    }
+    nav ul {
         display: block;
     }
-    .nav-responsive ul {
-        display: block;
-    }
-    .nav-responsive ul li {
+    nav ul li {
         border-bottom: 1px solid #fff;
         padding: 10px 0;
     }
-}
 
-/* For devices with a screen width of 700px or less */
-@media screen and (max-width: 700px) {
-    .sobremi .fila {
-        display: block;
+    /* Ajustes para la sección de inicio */
+    .inicio h1 {
+        font-size: 28px;
     }
-    .sobremi .fila .col {
-        width: 100%;
+    .inicio h2 {
+        font-size: 14px;
     }
-
-    .places .fila {
-        display: block;
-    }
-    .places .fila .col {
-        width: 100%;
-    }
-    .places .fila .col .barra-place {
-        width: 100%;
-    }
-
-    .fotos .galeria {
-        display: block;
-        width: 100%;
-    }
-    .fotos .galeria .proyecto {
-        max-width: 100%;
-    }
-    .fotos .galeria .proyecto img {
-        width: 100%;
-    }
-
-    .contacto .fila {
-        display: block;
-    }
-    .contacto .fila .col {
-        width: 100%;
+    .inicio .contenido-banner img {
+        width: 60%;
+        margin: 20px auto;
     }
 }
