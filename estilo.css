@@ -198,7 +198,7 @@ html{
     margin: auto;
 }
 .places h2{
-    font-size: 48px;
+    font-size: 40px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
@@ -402,13 +402,6 @@ html{
     margin-bottom: 0;
 }
 
-/* Estilos para dispositivos móviles */
-@media (max-width: 768px) {
-    .fotos .galeria .proyecto {
-        width: calc(50% - 20px); /* Ajustar el ancho para mostrar 2 imágenes por fila en móvil */
-        height: 200px; /* Ajustar la altura deseada para cada slide en móvil */
-    }
-}
 
 .contacto{
     background-image: url(img/contact_bg.png);
@@ -592,30 +585,5 @@ footer .arriba{
     }
 }
 
-@media screen and (max-width: 768px) {
-    .contenedor-header header ul {
-        display: none; /* Hide the desktop navigation on small screens */
-    }
-    .nav-responsive {
-        display: block; /* Show the mobile menu button */
-    }
-    nav.responsive {
-        display: none;
-        position: absolute;
-        right: 0;
-        top: 75px;
-        background-color: #252A2E;
-        width: 100%; /* Adjust the width to fill the entire screen */
-        text-align: center; /* Center the menu items */
-    }
-    nav.responsive ul {
-        display: block !important;
-        padding: 15px 0; /* Add some padding for better spacing */
-    }
-    nav.responsive ul li {
-        border-bottom: 1px solid #fff;
-        padding: 10px 0;
-    }
-}
 
 
