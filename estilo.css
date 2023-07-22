@@ -574,46 +574,14 @@ footer .arriba{
     .fotos .galeria .proyecto{
         max-width: 100%;
     }
-    .portfolio .galeria .proyecto img{
+    .fotos .galeria .proyecto img{
         width: 100%;
+        object-fit: cover;
     }
     .contacto .fila{
         display: block;
     }
     .contacto .fila .col{
         width: 100%;
-    }
-}
-
-
-
-@media screen and (max-width: 700px) {
-    /* Ajustes para el menú de navegación */
-    nav {
-        display: none;
-        position: absolute;
-        right: 0;
-        top: 75px;
-        background-color: #252A2E;
-        width: 180px;
-    }
-    nav ul {
-        display: block;
-    }
-    nav ul li {
-        border-bottom: 1px solid #fff;
-        padding: 10px 0;
-    }
-
-    /* Ajustes para la sección de inicio */
-    .inicio h1 {
-        font-size: 28px;
-    }
-    .inicio h2 {
-        font-size: 14px;
-    }
-    .inicio .contenido-banner img {
-        width: 60%;
-        margin: 20px auto;
     }
 }
